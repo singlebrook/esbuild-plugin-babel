@@ -1,8 +1,10 @@
 <div></div>
 
-# esbuild-plugin-babel
+# @singlebrook/esbuild-plugin-babel
 
-[Babel](https://github.com/babel/babel) plugin for [esbuild](https://github.com/evanw/esbuild).
+[Babel](https://github.com/babel/babel) plugin for [esbuild](https://github.com/evanw/esbuild). This fork supports Babel 8. We're not sure if it
+works with prior versions. The [upstream version](https://github.com/nativew/esbuild-plugin-babel),
+while dated, works with Babel 7.
 
 <br>
 
@@ -14,7 +16,7 @@ If not, you can add the Babel plugin you need with this plugin.
 ### Install
 
 ```zsh
-npm install esbuild-plugin-babel -D
+npm install @singlebrook/esbuild-plugin-babel -D
 ```
 
 <br>
@@ -25,7 +27,7 @@ npm install esbuild-plugin-babel -D
 
 ```js
 import esbuild from 'esbuild';
-import babel from 'esbuild-plugin-babel';
+import babel from '@singlebrook/esbuild-plugin-babel';
 
 esbuild
     .build({
