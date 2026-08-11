@@ -1,5 +1,5 @@
 {
-  "name": "esbuild-plugin-babel",
+  "name": "@singlebrook/esbuild-plugin-babel",
   "version": "0.3.0",
   "description": "Babel 8 plugin for esbuild.",
   "repository": "singlebrook/esbuild-plugin-babel",
