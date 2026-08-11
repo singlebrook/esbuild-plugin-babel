@@ -1,6 +1,6 @@
 {
   "name": "esbuild-plugin-babel",
-  "version": "0.2.4",
+  "version": "0.3.0",
   "description": "Babel 8 plugin for esbuild.",
   "repository": "singlebrook/esbuild-plugin-babel",
   "author": "Singlebrook (https://github.com/singlebrook)",
